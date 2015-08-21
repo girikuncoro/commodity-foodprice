@@ -1,4 +1,5 @@
 # Put your required libraries in this file
 
 Flask==0.10.1
+gunicorn==19.3.0
 Twilio==4.5.0

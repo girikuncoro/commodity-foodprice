@@ -8,6 +8,6 @@ install: clean venv
 	source ./venv/bin/activate; \
 	pip install -r requirements.txt;
 
-serve:
+heroku-local:
 	source ./venv/bin/activate; \
-	python app/main.py; \
+	heroku local; \
